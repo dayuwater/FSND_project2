@@ -1,10 +1,61 @@
-$blue: #0000ff;
-$red: #ff0000;
+$blue: #02b3e4;
+$dark_grey: #2d3c49;
+$grey: #7d97ad;
+$base-font-size: 50px;
+
+
+@mixin margin-top($top:30px){
+    margin-top: $top;
+}
+
+@mixin set-font($weight,$ratio:1){
+    
+    font-size: $base-font-size*$ratio;
+    font-family: 'Lato', sans-serif;
+    font-weight: $weight;
+    
+}
 
 h1{
-    color: $red;
+    @include set-font(300);
+    color: $dark_grey;
+    margin-bottom: 0px;
+    
 }
 
 h2{
-    color: $blue;
+    @include set-font(400,0.6);
+    color: $grey;
 }
+
+h3{
+    @include set-font(700,0.3);
+    color: $dark_grey;
+    margin-top: 0px;
+}
+
+.header-separator {
+    @include margin-top;
+    background-color: $grey;
+    padding-bottom: 5px;
+}
+
+.header-img{
+    margin-top: 30px;
+}
+
+.header-title{
+    margin-top: 30px;
+}
+
+#large-photo{
+    @include margin-top;
+}
+
+#featured-work{
+    @include margin-top;
+}
+
+
+
+
