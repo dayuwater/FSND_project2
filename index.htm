@@ -27,9 +27,13 @@
     <div class="header-separator"> 
     </div>
 
-    <!-- Large Photo -->
+    <!-- Large Photo, size changes according to device -->
     <section id="large-photo">
-      <img class="img-responsive" src="http://placekitten.com/1140/350">
+      <picture>
+        <source class="img-responsive" media="(min-width:1200px)" srcset="http://placekitten.com/1140/350" />
+        <source class="img-responsive" media="(min-width:700px)" srcset="http://placekitten.com/840/230" />
+        <img class="img-responsive" src="http://placekitten.com/340/120">
+      </picture>
     </section>
 
     <!-- Featured Work section -->
