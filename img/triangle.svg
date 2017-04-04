@@ -1,16 +1,16 @@
 <svg version="1.1"      baseProfile="full"     width="600" height="400"     xmlns="http://www.w3.org/2000/svg"> 
-<polygon points="0,400 300,0 600,400" />
-<polygon points="262.5,50.0 300,100.0 337.5,50.0" fill="blue"/>
-<polygon points="187.5,150.0 225.0,200.0 262.5,150.0" fill="blue"/>
-<polygon points="337.5,150.0 375.0,200.0 412.5,150.0" fill="blue"/>
-<polygon points="225.0,100.0 300,200.0 375.0,100.0" fill="blue"/>
-<polygon points="112.5,250.0 150.0,300.0 187.5,250.0" fill="blue"/>
-<polygon points="37.5,350.0 75.0,400 112.5,350.0" fill="blue"/>
-<polygon points="187.5,350.0 225.0,400 262.5,350.0" fill="blue"/>
-<polygon points="75.0,300.0 150.0,400 225.0,300.0" fill="blue"/>
-<polygon points="412.5,250.0 450.0,300.0 487.5,250.0" fill="blue"/>
-<polygon points="337.5,350.0 375.0,400 412.5,350.0" fill="blue"/>
-<polygon points="487.5,350.0 525.0,400 562.5,350.0" fill="blue"/>
-<polygon points="375.0,300.0 450.0,400 525.0,300.0" fill="blue"/>
-<polygon points="150.0,200.0 300,400 450.0,200.0" fill="blue"/>
+<polygon points="0,400 300,0 600,400" fill="#2d3c49" />
+<polygon points="262.5,50.0 300,100.0 337.5,50.0" fill="#02b3e4"/>
+<polygon points="187.5,150.0 225.0,200.0 262.5,150.0" fill="#02b3e4"/>
+<polygon points="337.5,150.0 375.0,200.0 412.5,150.0" fill="#02b3e4"/>
+<polygon points="225.0,100.0 300,200.0 375.0,100.0" fill="#02b3e4"/>
+<polygon points="112.5,250.0 150.0,300.0 187.5,250.0" fill="#02b3e4"/>
+<polygon points="37.5,350.0 75.0,400 112.5,350.0" fill="#02b3e4"/>
+<polygon points="187.5,350.0 225.0,400 262.5,350.0" fill="#02b3e4"/>
+<polygon points="75.0,300.0 150.0,400 225.0,300.0" fill="#02b3e4"/>
+<polygon points="412.5,250.0 450.0,300.0 487.5,250.0" fill="#02b3e4"/>
+<polygon points="337.5,350.0 375.0,400 412.5,350.0" fill="#02b3e4"/>
+<polygon points="487.5,350.0 525.0,400 562.5,350.0" fill="#02b3e4"/>
+<polygon points="375.0,300.0 450.0,400 525.0,300.0" fill="#02b3e4"/>
+<polygon points="150.0,200.0 300,400 450.0,200.0" fill="#02b3e4"/>
 </svg>
