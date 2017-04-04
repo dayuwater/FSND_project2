@@ -14,7 +14,7 @@ head = "<svg version=\"1.1\" \
      xmlns=\"http://www.w3.org/2000/svg\"> \n"
 
 content = "<polygon points=\"0,400 300,0 600,400\" fill=\"#2d3c49\" />\n"
-content += draw_triangle(0,400,300,0,600,400,3)
+content += draw_triangle(0,400,300,0,600,400,5)
 
 
 tail = "</svg>"
