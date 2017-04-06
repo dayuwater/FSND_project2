@@ -39,6 +39,11 @@ h4{
     color: $dark_grey;
 }
 
+.modal-body{
+    @include set-font(400,0.3);
+    color: $dark_grey;
+}
+
 .project-link{
     @include set-font(400,0.3);
     color: $dark_grey;

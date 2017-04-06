@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <meta name= "viewport" content= "width=device-width initial-scale=1">
+  <title> My Portfolio </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- Lato fonts -->
@@ -17,22 +17,24 @@
   <div class="container">
     <!-- Header -->
     <header class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 header-img"><img src="img/logo.svg"></div>
+      <div class="col-md-6 col-sm-6 col-xs-12 header-img"><img src="img/logo.svg" alt="Tan Wang"></div>
       <div class="col-md-6 col-sm-6 col-xs-12 text-right text-uppercase header-title">
         <h1>Tan Wang</h1>
         <h3>Front-end Ninja</h3>
       </div>
     </header>
 
-    <div class="header-separator"> 
+    <div class="header-separator">
     </div>
 
     <!-- Large Photo, size changes according to device -->
     <section id="large-photo">
       <picture>
-        <source class="img-responsive" media="(min-width:1200px)" srcset="http://placekitten.com/1140/350" />
-        <source class="img-responsive" media="(min-width:700px)" srcset="http://placekitten.com/840/230" />
-        <img class="img-responsive" src="http://placekitten.com/340/120">
+        <source class="img-responsive" media="(min-width:1200px)" srcset="http://placekitten.com/1140/350"
+        />
+        <source class="img-responsive" media="(min-width:700px)" srcset="http://placekitten.com/840/230"
+        />
+        <img class="img-responsive" src="http://placekitten.com/340/120" alt="Banner photo: A lovely cat">
       </picture>
     </section>
 
@@ -40,62 +42,152 @@
     <div id="featured-work">
       <h2>Featured Work</h2>
     </div>
-    
-    <div class="row">
+
+    <article class="row">
       <div class="col-lg-4 col-sm-6">
-        <img class="img-responsive" src="http://placekitten.com/550/350" data-toggle="modal" data-target="#project1">
+        <img class="img-responsive" src="http://placekitten.com/550/350" data-toggle="modal"
+          data-target="#project1" alt="kitten">
         <h4 class="text-center text-uppercase">Cat</h4>
         <p class="project-link text-center"><a href="http://github.com/">http://github.com/cat</a></p>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <img class="img-responsive" src="http://placekitten.com/550/350">
-        <h4 class="text-center text-uppercase">Dog</h4>
-        <p class="project-link text-center"><a href="http://github.com/">http://github.com/dog</a></p>
+        <img class="img-responsive" src="http://baconmockup.com/550/350" data-toggle="modal"
+          data-target="#project2" alt="kitten">
+        <h4 class="text-center text-uppercase">Bacon</h4>
+        <p class="project-link text-center"><a href="http://github.com/">http://github.com/bacon</a></p>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <img class="img-responsive" src="http://placekitten.com/550/350">
-        <h4 class="text-center text-uppercase">Fractal</h4>
-        <p class="project-link text-center"><a href="http://github.com/">http://github.com/fractal</a></p>
+        <img class="img-responsive" src="http://placebear.com/550/350" data-toggle="modal"
+          data-target="#project3" alt="kitten">
+        <h4 class="text-center text-uppercase">Bear</h4>
+        <p class="project-link text-center"><a href="http://github.com/">http://github.com/bear</a></p>
       </div>
-    
-      <div class="col-lg-4 col-sm-6"> 
-        <img class="img-responsive" src="img/triangle.svg">
+
+      <div class="col-lg-4 col-sm-6">
+        <img class="img-responsive" src="img/triangle.svg" data-toggle="modal" data-target="#project4"
+          alt="triangle">
         <h4 class="text-center text-uppercase">Triangle</h4>
         <p class="project-link text-center"><a href="http://github.com/">http://github.com/triangle</a></p>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <img class="img-responsive" src="img/flower.svg">
+        <img class="img-responsive" src="img/flower.svg" data-toggle="modal" data-target="#project5"
+          alt="flower">
         <h4 class="text-center text-uppercase">Flower</h4>
         <p class="project-link text-center"><a href="http://github.com/">http://github.com/flower</a></p>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <img class="img-responsive" src="img/stock.svg">
+        <img class="img-responsive" src="img/stock.svg" data-toggle="modal" data-target="#project6"
+          alt="stock">
         <h4 class="text-center text-uppercase">Stock</h4>
         <p class="project-link text-center"><a href="http://github.com/">http://github.com/stock</a></p>
       </div>
-    
-  </div>
 
-  <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="./bootstrap-prestructure_files/555x300">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+    </article>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Cat</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placekitten.com/550/350" alt="kitten">            A cat from placekitten.com.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Bacon</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://baconmockup.com/550/350" alt="bacon">            Delicious bacon from baconmockup.com.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Bear</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placebear.com/550/350" alt="bear">            Lovely bear from placebear.com
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel4">Triangle</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/triangle.svg" alt="sierpinski triangle">            Sierpinski triangle drawn by myself.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel5">Flower</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/flower.svg" alt="future flower">            A flower from future.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel6">Stock</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/stock.svg" alt="random stock"> A
+            stock chart for a random stock.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
