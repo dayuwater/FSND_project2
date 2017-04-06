@@ -3,6 +3,7 @@
 - This project utilizes Grunt for task automation, such as converting SASS to CSS and CSS beautifying
 - All of the raster images are from placeholder websites.
 - All of the vector SVG images are in img folder. They are all my own creation using Python. The Python codes are in src/py
+- Clicking on the images will show some detail in a modal view.
 
 ## Quick start
 - Clone the repo
