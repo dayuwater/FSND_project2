@@ -17,32 +17,46 @@
   <div class="container">
     <!-- Header -->
     <header class="row">
-      <div class="col-md-6 col-sm-6 col-xs-12 header-img"><img src="img/logo.svg" alt="Tan Wang"></div>
+      <div class="col-md-6 col-sm-6 col-xs-12 header-img">
+        <img src="img/logo.svg" alt="Tan Wang">
+      </div>
       <div class="col-md-6 col-sm-6 col-xs-12 text-right text-uppercase header-title">
         <h1>Tan Wang</h1>
         <h3>Front-end Ninja</h3>
       </div>
     </header>
 
-    <div class="header-separator">
+    <!-- Header Separator-->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="header-separator">
+        </div>
+      </div>
     </div>
 
     <!-- Large Photo, size changes according to device -->
-    <section id="large-photo">
-      <picture>
-        <source class="img-responsive" media="(min-width:1200px)" srcset="http://placekitten.com/1140/350"
-        />
-        <source class="img-responsive" media="(min-width:700px)" srcset="http://placekitten.com/840/230"
-        />
-        <img class="img-responsive" src="http://placekitten.com/340/120" alt="Banner photo: A lovely cat">
-      </picture>
+    <section class="row">
+      <div class="col-lg-12" id="large-photo">
+        <picture>
+          <source class="img-responsive" media="(min-width:1200px)" srcset="http://placekitten.com/1440/350"
+          />
+          <source class="img-responsive" media="(min-width:700px)" srcset="http://placekitten.com/940/230"
+          />
+          <img class="img-responsive" src="http://placekitten.com/540/120" alt="Banner photo: A lovely cat">
+        </picture>
+      </div>
     </section>
 
     <!-- Featured Work section -->
-    <div id="featured-work">
-      <h2>Featured Work</h2>
-    </div>
+    <section class="row">
+      <div class="col-lg-12">
+        <div id="featured-work">
+          <h2>Featured Work</h2>
+        </div>
+      </div>
+    </section>
 
+    <!-- Featured Work items -->
     <article class="row">
       <div class="col-lg-4 col-sm-6">
         <img class="img-responsive" src="http://placekitten.com/550/350" data-toggle="modal"
